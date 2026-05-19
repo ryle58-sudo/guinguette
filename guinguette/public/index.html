@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guinguette Etang Grenetier</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-stone-50 text-stone-800">
+
+    <nav class="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-md shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" id="nav-logo" class="text-lg font-bold text-emerald-900 uppercase"></a>
+            <div id="nav-links" class="flex space-x-4 md:space-x-6 font-medium text-sm md:text-base uppercase tracking-widest">
+                <a href="#menu">La Semaine</a>
+                <a href="#evenements">Évènements</a>
+                <a href="#services">Services</a>
+                <a href="#activites">Activités</a>
+                <a href="#galerie">Galerie</a>
+                <a href="#infos-pratiques">Infos</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative h-[40vh] md:h-[60vh] flex items-center justify-center mt-[72px] md:mt-[80px]">
+        <img id="hero-img" src="" alt="Bannière" class="absolute inset-0 object-contain w-full h-full">
+    </header>
+
+    <main>
+        <section id="menu" class="py-16 px-4 max-w-5xl mx-auto"></section>
+        <section id="evenements" class="py-16 px-4 bg-stone-900 text-white text-center"></section>
+        <section id="services" class="py-16 px-4 bg-white text-center"></section>
+        <section id="activites" class="py-20 px-4 bg-emerald-50 text-center"></section>
+        <section id="galerie" class="py-20 px-4 bg-white text-center"></section>
+        <section id="infos-pratiques" class="py-20 px-4 bg-stone-50"></section>
+    </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="fixed inset-0 z-[100] bg-black/95 hidden flex-col items-center justify-center p-4">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white text-5xl">&times;</button>
+        <img id="lightbox-img" src="" class="max-w-full max-h-[75vh] object-contain rounded-lg">
+        <div class="flex gap-8 mt-10">
+            <button onclick="prevImg()" class="text-white bg-white/10 px-6 py-2 rounded-full">Précédent</button>
+            <button onclick="nextImg()" class="text-white bg-white/10 px-6 py-2 rounded-full">Suivant</button>
+        </div>
+    </div>
+
+    <footer id="main-footer"
+        class="bg-stone-900 text-stone-500 py-10 text-center text-xs md:text-sm uppercase tracking-widest"></footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

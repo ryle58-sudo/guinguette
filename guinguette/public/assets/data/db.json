@@ -1,0 +1,109 @@
+{
+  "config": {
+    "nom": "Guinguette Grenetier",
+    "banniere": "plaisirs 2.0.png",
+    "footer": "Guinguette Etang Grenetier | Route Industrielle du Pré Charpin, 58260 La Machine | Tél: 03 86 XX XX XX | <a href='https://www.facebook.com/' target='_blank' class='text-emerald-500 hover:text-emerald-400 underline'>Notre page Facebook</a> | <a href='#' class='text-emerald-500 hover:text-emerald-400 underline'>Mentions légales</a>"
+  },
+  "sections": {
+    "menu": "L'Ardoise du Jour",
+    "evenements": "Prochainement",
+    "services": "Services & Commodités",
+    "activites": "Activités & Loisirs",
+    "galerie": "Galerie Photos",
+    "infos": "Infos Pratiques"
+  },
+  "menus": {
+    "mardi 19 mai": {
+      "prix": "17€",
+      "entree": "Salade bleu-noix &nbsp;&nbsp; Charcuteries",
+      "plat": "Croque monsieur + frites &nbsp;&nbsp; Andouillette"
+    },
+    "mercredi 20 mai": {
+      "prix": "12€ adultes, 10€ enfants",
+      "entree": "Carottes râpées <br> Frites",
+      "plat": "Poulet à la crème"
+    },
+    "jeudi 21 mai": {
+      "prix": "17€",
+      "entree": "Friture &nbsp;&nbsp; Pâté en croûte",
+      "plat": "Boeuf carottes &nbsp;&nbsp; Steak façon boucher"
+    },
+    "vendredi": {
+      "entree": "Friture d'ablettes",
+      "plat": "Fish & Chips"
+    },
+    "samedi": {
+      "entree": "Planche terroir",
+      "plat": "Grillades du Chef"
+    },
+    "dimanche": {
+      "entree": "Crudités",
+      "plat": "Poulet Rôti"
+    }
+  },
+  "evenements": [
+    {
+      "badge": "Concerts",
+      "titre": "Samedi Soir Musical",
+      "desc": "Ambiance guinguette au bord de l'eau."
+    },
+    {
+      "badge": "Spécialités",
+      "titre": "Soirées à Thème",
+      "desc": "Paëlla et plats locaux."
+    }
+  ],
+  "services": [
+    {
+      "icone": "🚿",
+      "label": "Douches"
+    },
+    {
+      "icone": "🚽",
+      "label": "WC Publics"
+    },
+    {
+      "icone": "🟠",
+      "label": "Pétanque"
+    },
+    {
+      "icone": "♿",
+      "label": "Accès handicapé"
+    },
+    {
+      "icone": "🛝",
+      "label": "Aire de jeux"
+    }
+  ],
+  "activites": [
+    {
+      "icone": "⛺",
+      "titre": "Camping"
+    },
+    {
+      "icone": "⛱️",
+      "titre": "Baignade"
+    },
+    {
+      "icone": "🎣",
+      "titre": "Pêche"
+    },
+    {
+      "icone": "🚶",
+      "titre": "Randonnée"
+    }
+  ],
+  "galerie": [
+    "plaisirs 2.0.png",
+    "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+    "galerie_1.jpg"
+  ],
+  "infos": {
+    "horaires": "Ouvert tous les jours de 10h à 22h.",
+    "contact": "Téléphone : 03 86 XX XX XX <br> Email : contact@etang-grenetier.fr",
+    "note": "Animaux bienvenus. Baignade surveillée en été.",
+    "adresse": "Route Industrielle du Pré Charpin, 58260 La Machine",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2724.8703476483664!2d3.47761131!3d46.8766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f103986427df6f%3A0x6b8766123456789!2sEtang%20Grenetier!5e0!3m2!1sfr!2sfr!4v1700000000000",
+    "itineraire": "https://www.google.com/maps/dir/?api=1&destination=Route+Industrielle+du+Pre+Charpin+58260+LA+MACHINE"
+  }
+}
