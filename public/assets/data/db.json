@@ -1,0 +1,143 @@
+{
+  "config": {
+    "nom": "Guinguette Grenetier",
+    "banniere": "assets/images/plaisirs.png",
+    "ryleEmail": "Rylewebdesign@proton.me",
+    "facebookUrl": "https://www.facebook.com/people/Guinguette-Etang-Grenetier-La-Machine/61589427523891/",
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSnl305EeIPBsgxsuQvNUNhxNboQDdHPVXnSU7jQyT-g6IDfHuiuyKnEs3SbbCE3-At-VAxX2C10QAi/pub?gid=1355092721&single=true&output=tsv",
+    "eventSheetUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSnl305EeIPBsgxsuQvNUNhxNboQDdHPVXnSU7jQyT-g6IDfHuiuyKnEs3SbbCE3-At-VAxX2C10QAi/pub?gid=1662302331&single=true&output=tsv",
+    "galerieSheetUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSnl305EeIPBsgxsuQvNUNhxNboQDdHPVXnSU7jQyT-g6IDfHuiuyKnEs3SbbCE3-At-VAxX2C10QAi/pub?output=tsv",
+    "engagementSheetUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSnl305EeIPBsgxsuQvNUNhxNboQDdHPVXnSU7jQyT-g6IDfHuiuyKnEs3SbbCE3-At-VAxX2C10QAi/pub?gid=1699309972&single=true&output=tsv",
+    "infosSheetUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSnl305EeIPBsgxsuQvNUNhxNboQDdHPVXnSU7jQyT-g6IDfHuiuyKnEs3SbbCE3-At-VAxX2C10QAi/pub?gid=1484407410&single=true&output=tsv"
+  },
+  "sections": {
+    "menu": "L'Ardoise du Jour",
+    "evenements": "Prochainement",
+    "servicesActivites": "Services & Activités",
+    "services": "Services & Commodités",
+    "activites": "Activités & Loisirs",
+    "galerie": "Galerie Photos",
+    "infos": "Infos Pratiques"
+  },
+  "menus": [
+    {
+      "jour": "Lundi",
+      "prix": "-",
+      "entree1": "Fermeture",
+      "entree2": "",
+      "plat1": "Fermeture",
+      "plat2": ""
+    },
+    {
+      "jour": "Mardi",
+      "prix": "17€",
+      "entree1": "Salade bleu-noix",
+      "entree2": "Charcuteries",
+      "plat1": "Croque monsieur + frites",
+      "plat2": "Andouillette"
+    },
+    {
+      "jour": "Mercredi",
+      "prix": "12€ adultes, 10€ enfants",
+      "entree1": "Carottes râpées",
+      "entree2": "Frites",
+      "plat1": "Poulet à la crème",
+      "plat2": ""
+    },
+    {
+      "jour": "Jeudi",
+      "prix": "17€",
+      "entree1": "Friture",
+      "entree2": "Pâté en croûte",
+      "plat1": "Boeuf carottes",
+      "plat2": "Steak façon boucher"
+    },
+    {
+      "jour": "Vendredi",
+      "prix": "17€",
+      "entree1": "Friture d'ablettes",
+      "entree2": "",
+      "plat1": "Fish & Chips",
+      "plat2": ""
+    },
+    {
+      "jour": "Samedi",
+      "prix": "17€",
+      "entree1": "Planche terroir",
+      "entree2": "",
+      "plat1": "Grillades du Chef",
+      "plat2": ""
+    },
+    {
+      "jour": "Dimanche",
+      "prix": "17€",
+      "entree1": "Crudités",
+      "entree2": "",
+      "plat1": "Poulet Rôti",
+      "plat2": ""
+    }
+  ],
+  "evenements": [
+    {
+      "badge": "Concerts",
+      "titre": "Samedi Soir Musical",
+      "desc": "Ambiance guinguette au bord de l'eau."
+    },
+    {
+      "badge": "Spécialités",
+      "titre": "Soirées à Thème",
+      "desc": "Paëlla et plats locaux."
+    }
+  ],
+  "engagement": [
+    {
+      "titre": "Services & Commodités",
+      "items": [
+        { "icone": "🚿", "label": "Douches", "commentaire": "Accès réservé à notre clientèle." },
+        { "icone": "🚾", "label": "WC Publics", "commentaire": "" },
+        { "icone": "🟠", "label": "Pétanque", "commentaire": "Boules disponibles au bar sur demande." },
+        { "icone": "♿", "label": "Accès handicapé", "commentaire": "Tout notre site est accessible." },
+        { "icone": "🛝", "label": "Aire de jeux", "commentaire": "Sous la surveillance des parents." },
+        { "icone": "🎾", "label": "Jeux de raquette", "commentaire": "" }
+      ]
+    },
+    {
+      "titre": "Activités & Loisirs",
+      "items": [
+        { "icone": "🏕️", "label": "Camping", "commentaire": "Réservez votre emplacement à l'avance." },
+        { "icone": "🏖️", "label": "Baignade", "commentaire": "Baignade non surveillée." },
+        { "icone": "🎣", "label": "Pêche", "commentaire": "Carte de pêche obligatoire." },
+        { "icone": "🚶", "label": "Randonnée", "commentaire": "Plusieurs sentiers balisés autour de l'étang." }
+      ]
+    }
+  ],
+  "galerie": [
+    "assets/images/plaisirs.png",
+    "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+    "assets/images/galerie.jpg"
+  ],
+  "infos": {
+    "map": {
+      "adresse": "Route Industrielle du Pré Charpin, 58260 La Machine",
+      "mapUrl": "https://maps.google.com/maps?q=Route+Industrielle+du+Pré+Charpin,+58260+La+Machine,+France&output=embed",
+      "itineraire": "https://www.google.com/maps/dir//Route+Industrielle+du+Pré+Charpin,+58260+La+Machine,+France"
+    },
+    "panneaux": [
+      {
+        "titre": "Horaires d'ouverture",
+        "icone": "🕐",
+        "contenu": "Ouvert du Mardi au Dimanche de 11h à 22h et exceptionnellement sur certains Lundi (infos sur notre page Facebook)"
+      },
+      {
+        "titre": "Nous contacter",
+        "icone": "📞",
+        "contenu": "Téléphone : 07 43 28 26 58"
+      },
+      {
+        "titre": "Le savoir-bon",
+        "icone": "ℹ️",
+        "contenu": "Animaux autorisés, privatisation possible sur demande"
+      }
+    ]
+  }
+}

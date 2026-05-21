@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://guinguettegrenetier.fr/sitemap.xml

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guinguette Etang Grenetier — Restaurant au bord de l'eau, La Machine (58)</title>
+    <meta name="description" content="La Guinguette de l'Etang Grenetier à La Machine (Nièvre) — restaurant au bord de l'eau, menus du jour, concerts, baignade, pêche et activités en plein air.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://guinguettegrenetier.fr/">
+    <link rel="icon" href="assets/images/plaisirs.png" type="image/png">
+    <link rel="preload" href="assets/images/plaisirs.png" as="image" fetchpriority="high">
+
+    <!-- Open Graph / Réseaux Sociaux -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://guinguettegrenetier.fr/">
+    <meta property="og:title" content="Guinguette Etang Grenetier — La Machine">
+    <meta property="og:description" content="Restaurant au bord de l'eau, menus du jour, concerts et activités en plein air à La Machine (Nièvre).">
+    <meta property="og:image" content="https://guinguettegrenetier.fr/assets/images/galerie.jpg">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="Guinguette Etang Grenetier">
+    <meta name="theme-color" content="#10b981">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Guinguette Etang Grenetier — La Machine">
+    <meta name="twitter:description" content="Restaurant au bord de l'eau, menus du jour, concerts et activités en plein air à La Machine (Nièvre).">
+    <meta name="twitter:image" content="https://guinguettegrenetier.fr/assets/images/galerie.jpg">
+
+    <!-- Données Structurées pour Google (Local Business / Restaurant) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Guinguette Etang Grenetier",
+      "image": "https://guinguettegrenetier.fr/assets/images/galerie.jpg",
+      "url": "https://guinguettegrenetier.fr/",
+      "telephone": "+33743282658",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Route Industrielle du Pré Charpin",
+        "addressLocality": "La Machine",
+        "postalCode": "58260",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 46.8897,
+        "longitude": 3.4597
+      },
+      "servesCuisine": ["Française", "Guinguette", "Grillades"],
+      "priceRange": "€€",
+      "currenciesAccepted": "EUR",
+      "paymentAccepted": "Cash, Credit Card",
+      "hasMap": "https://www.google.com/maps/dir//Route+Industrielle+du+Pré+Charpin,+58260+La+Machine,+France",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "11:00",
+          "closes": "22:00"
+        }
+      ],
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Terrasse extérieure", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Accès handicapé", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Animaux acceptés", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Baignade", "value": true }
+      ]
+    }
+    </script>
+
+    <!-- Préconnexion Google Fonts pour la performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Préconnexion Google Translate pour réduire la latence -->
+    <link rel="preconnect" href="https://translate.google.com">
+    <link rel="preconnect" href="https://translate.googleapis.com">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            /* IMPORTANT : 'class' est requis pour que les utilitaires dark: (dark:bg-*, etc.)
+               réagissent à notre toggle manuel (class="dark" sur <html>)
+               et non uniquement à la préférence système (prefers-color-scheme). */
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        foret: { 50: '#ecfdf5', 100: '#d1fae5', 200: '#a7f3d0', 500: '#10b981', 600: '#059669', 700: '#047857', 800: '#065f46', 900: '#064e3b' },
+                        etang: { 50: '#f0f9ff', 100: '#e0f2fe', 200: '#bae6fd', 300: '#7dd3fc', 500: '#0ea5e9', 800: '#075985', 900: '#0c4a6e' },
+                        terre: { 500: '#f59e0b', 600: '#d97706', 700: '#b45309' }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Réinitialiser Google Translate si la préférence est le français ou inconnue -->
+    <script>
+        (function () {
+            try {
+                var supported = ['fr', 'en', 'nl', 'pl', 'es'];
+                var lang = localStorage.getItem('site-lang');
+                if (lang && supported.indexOf(lang) === -1) {
+                    lang = 'fr';
+                    localStorage.setItem('site-lang', 'fr');
+                }
+                if (lang !== 'fr') {
+                    return;
+                }
+
+                var exp = 'Thu, 01 Jan 1970 00:00:00 UTC';
+                document.cookie = 'googtrans=;expires=' + exp + ';path=/';
+                var host = location.hostname;
+                if (host && host !== 'localhost') {
+                    document.cookie = 'googtrans=;expires=' + exp + ';path=/;domain=' + host;
+                    document.cookie = 'googtrans=;expires=' + exp + ';path=/;domain=.' + host;
+                }
+            } catch (e) { /* ignore */ }
+        })();
+    </script>
+</head>
+
+<body class="bg-stone-50 text-stone-800 font-['Poppins']">    <noscript style="display:block;padding:1rem;background:#fef3c7;color:#92400e;text-align:center;font-weight:700;">JavaScript est nécessaire pour afficher le menu, les événements et la galerie. Veuillez activer JavaScript pour voir le contenu complet du site.</noscript>
+    <!-- ===================== NAVBAR ===================== -->
+    <nav class="site-nav fixed top-0 left-0 w-full z-50 transition-all duration-300" role="navigation" aria-label="Navigation principale">
+        <div class="max-w-7xl mx-auto px-4 md:px-8 py-3 md:py-4 flex justify-between items-center relative z-50">
+
+            <a href="#" id="nav-logo" class="text-lg md:text-2xl font-bold uppercase font-['Playfair_Display'] tracking-wider focus:outline-none focus-visible:ring-2 focus-visible:ring-foret-500 rounded" aria-label="Guinguette Grenetier — Accueil">Guinguette Etang Grenetier</a>
+
+            <!-- Menu PC -->
+            <div id="nav-links-pc" class="hidden md:flex items-center space-x-6 lg:space-x-8 font-semibold text-sm uppercase tracking-widest font-['Playfair_Display']">
+                <a href="#menu" class="nav-link hover:text-foret-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-foret-500 rounded">La Semaine</a>
+                <a href="#evenements" class="nav-link hover:text-foret-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-foret-500 rounded">Évènements</a>
+                <a href="#services-activites" class="nav-link hover:text-foret-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-foret-500 rounded">Services &amp; Activités</a>
+                <a href="#galerie" class="nav-link hover:text-foret-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-foret-500 rounded">Galerie</a>
+                <a href="#infos-pratiques" class="nav-link hover:text-foret-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-foret-500 rounded">Infos</a>
+                <button id="theme-toggle-pc" type="button" data-action="toggle-theme" class="theme-toggle notranslate" aria-label="Changer de thème" title="Mode sombre / clair">
+                    <span class="toggle-icon sun-icon" aria-hidden="true">☀️</span>
+                    <span class="toggle-icon moon-icon" aria-hidden="true">🌙</span>
+                </button>
+                <div class="relative">
+                    <button id="lang-menu-btn-pc" type="button" data-action="toggle-lang-menu" aria-controls="lang-menu-pc" aria-expanded="false" class="lang-selector-btn notranslate" aria-label="Sélectionner la langue">
+                        <span class="lang-flag" id="lang-flag-pc">🇫🇷</span>
+                        <span aria-hidden="true">▾</span>
+                    </button>
+                    <div id="lang-menu-pc" class="lang-menu hidden absolute right-0 mt-2 w-52 rounded-2xl bg-white dark:bg-stone-900 shadow-xl overflow-hidden z-50" role="menu" aria-label="Sélection de la langue">
+                        <button type="button" class="lang-menu-item" data-action="select-lang" data-lang="fr">🇫🇷 fr Français</button>
+                        <button type="button" class="lang-menu-item" data-action="select-lang" data-lang="en">🇬🇧 en English</button>
+                        <button type="button" class="lang-menu-item" data-action="select-lang" data-lang="nl">🇳🇱 nl Nederlands</button>
+                        <button type="button" class="lang-menu-item" data-action="select-lang" data-lang="pl">🇵🇱 pl Polski</button>
+                        <button type="button" class="lang-menu-item" data-action="select-lang" data-lang="es">🇪🇸 es Español</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hamburger (Mobile) -->
+            <button id="mobile-menu-btn" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-foret-500 rounded p-2 -mr-2">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path id="hamburger-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Menu Mobile -->
+        <div id="mobile-menu" aria-hidden="true" class="hidden md:hidden absolute w-full left-0 top-full flex-col shadow-2xl origin-top font-['Playfair_Display']" role="menu">
+            <a href="#menu" class="mobile-link block px-6 py-4 text-center border-b uppercase tracking-widest text-sm font-bold transition" role="menuitem">La Semaine</a>
+            <a href="#evenements" class="mobile-link block px-6 py-4 text-center border-b uppercase tracking-widest text-sm font-bold transition" role="menuitem">Évènements</a>
+            <a href="#services-activites" class="mobile-link block px-6 py-4 text-center border-b uppercase tracking-widest text-sm font-bold transition" role="menuitem">Services &amp; Activités</a>
+            <a href="#galerie" class="mobile-link block px-6 py-4 text-center border-b uppercase tracking-widest text-sm font-bold transition" role="menuitem">Galerie</a>
+            <a href="#infos-pratiques" class="mobile-link block px-6 py-4 text-center uppercase tracking-widest text-sm font-bold transition" role="menuitem">Infos</a>
+            <div class="flex flex-col items-center gap-3 py-4 border-t">
+                <div class="flex justify-center gap-4">
+                    <button type="button" data-action="toggle-theme" class="theme-toggle notranslate" aria-label="Changer de thème">
+                        <span class="toggle-icon sun-icon" aria-hidden="true">☀️</span>
+                        <span class="toggle-icon moon-icon" aria-hidden="true">🌙</span>
+                    </button>
+                    <button id="lang-menu-btn-mobile" type="button" data-action="toggle-lang-menu" aria-controls="lang-menu-mobile" aria-expanded="false" class="lang-selector-btn notranslate" aria-label="Sélectionner la langue">
+                        <span class="lang-flag" id="lang-flag-mobile">🇫🇷</span>
+                        <span aria-hidden="true">▾</span>
+                    </button>
+                </div>
+                <div id="lang-menu-mobile" class="lang-menu hidden w-full max-w-xs rounded-2xl bg-white dark:bg-stone-900 shadow-xl overflow-hidden" role="menu" aria-label="Sélection de la langue">
+                    <button type="button" class="lang-menu-item w-full text-left" data-action="select-lang" data-lang="fr">🇫🇷 fr Français</button>
+                    <button type="button" class="lang-menu-item w-full text-left" data-action="select-lang" data-lang="en">🇬🇧 en English</button>
+                    <button type="button" class="lang-menu-item w-full text-left" data-action="select-lang" data-lang="nl">🇳🇱 nl Nederlands</button>
+                    <button type="button" class="lang-menu-item w-full text-left" data-action="select-lang" data-lang="pl">🇵🇱 pl Polski</button>
+                    <button type="button" class="lang-menu-item w-full text-left" data-action="select-lang" data-lang="es">🇪🇸 es Español</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO BANNER ===================== -->
+    <header class="w-full max-w-7xl mx-auto mt-[64px] md:mt-[72px] px-4 md:px-8 pt-4" role="banner">
+        <div class="hero-wrapper relative overflow-hidden rounded-3xl shadow-[0_20px_60px_rgba(8,112,80,0.15)]">
+            <!-- Skeleton loader -->
+            <div id="hero-skeleton" class="w-full h-[40vh] md:h-[60vh] skeleton-pulse rounded-3xl"></div>
+            <img
+                id="hero-img"
+                src=""
+                alt="Vue panoramique de la Guinguette Etang Grenetier au bord de l'eau, La Machine (Nièvre)"
+                class="w-full h-auto max-h-[75vh] object-cover rounded-3xl hidden"
+                loading="eager"
+                fetchpriority="high"
+            >
+        </div>
+    </header>
+
+    <!-- ===================== MAIN ===================== -->
+    <main id="main-content">
+
+        <!-- MENU DE LA SEMAINE -->
+        <section id="menu" class="py-20 md:py-28 px-4" aria-labelledby="menu-title">
+            <div class="max-w-6xl mx-auto">
+                <!-- État de chargement -->
+                <div id="menu-loading" class="text-center py-20" aria-live="polite" aria-label="Chargement du menu en cours">
+                    <div class="loader mx-auto mb-4"></div>
+                    <p class="text-sm uppercase tracking-widest" style="color: var(--text-muted);">Chargement du menu…</p>
+                </div>
+                <!-- Contenu injecté par JS -->
+                <div id="menu-content" class="hidden"></div>
+                <!-- État d'erreur -->
+                <div id="menu-error" class="hidden text-center py-20">
+                    <div class="text-5xl mb-4">🌿</div>
+                    <p class="font-['Playfair_Display'] text-2xl italic mb-2" style="color: var(--text-primary);">Menu temporairement indisponible</p>
+                    <p class="text-sm" style="color: var(--text-muted);">Appelez-nous au 07 43 28 26 58 pour connaître le menu du jour.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ÉVÉNEMENTS -->
+        <section id="evenements" class="py-20 md:py-28 px-4 relative overflow-hidden" aria-labelledby="evenements-title">
+            <div class="absolute inset-0 events-bg pointer-events-none" aria-hidden="true"></div>
+            <div class="absolute top-0 right-0 w-96 h-96 bg-etang-500/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" aria-hidden="true"></div>
+            <div class="absolute bottom-0 left-0 w-64 h-64 bg-foret-500/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2 pointer-events-none" aria-hidden="true"></div>
+
+            <!-- État de chargement -->
+            <div id="evenements-loading" class="text-center py-16" aria-live="polite">
+                <div class="loader loader-light mx-auto"></div>
+            </div>
+            <!-- Contenu injecté par JS -->
+            <div id="evenements-content" class="hidden relative z-10 max-w-6xl mx-auto"></div>
+        </section>
+
+        <!-- SERVICES & ACTIVITÉS (accordéons) -->
+        <section id="services-activites" class="py-20 md:py-28 px-4 md:px-8 scroll-mt-24" aria-labelledby="services-activites-title">
+            <div id="services-activites-content" class="max-w-6xl mx-auto"></div>
+        </section>
+
+        <!-- GALERIE -->
+        <section id="galerie" class="py-20 md:py-28 px-4" aria-labelledby="galerie-title">
+            <div id="galerie-loading" class="text-center py-16" aria-live="polite">
+                <div class="loader mx-auto"></div>
+            </div>
+            <div id="galerie-content" class="hidden max-w-7xl mx-auto"></div>
+        </section>
+
+        <!-- INFOS PRATIQUES -->
+        <section id="infos-pratiques" class="py-20 md:py-28 px-4" aria-labelledby="infos-title">
+            <div id="infos-content" class="max-w-6xl mx-auto"></div>
+        </section>
+
+    </main>
+
+    <!-- ===================== LIGHTBOX ===================== -->
+    <div
+        id="lightbox"
+        class="fixed inset-0 z-[100] bg-black/95 hidden items-center justify-center p-4 backdrop-blur-md"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Galerie photos"
+    >
+        <button
+            data-action="close-lightbox"
+            aria-label="Fermer la galerie"
+            class="absolute top-4 right-4 md:top-6 md:right-6 text-white/50 hover:text-white transition-colors text-5xl md:text-6xl leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded"
+        >&times;</button>
+
+        <div class="flex flex-col items-center w-full max-w-5xl">
+            <img id="lightbox-img" src="" alt="" class="max-w-full max-h-[78vh] object-contain rounded-xl shadow-2xl">
+            <div id="lightbox-counter" class="text-white/40 text-xs uppercase tracking-widest mt-4 mb-2"></div>
+            <div class="flex gap-4 md:gap-6 mt-2">
+                <button type="button" data-action="prev-img" class="lightbox-btn notranslate focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-full" aria-label="Image précédente">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                    Précédent
+                </button>
+                <button type="button" data-action="next-img" class="lightbox-btn notranslate focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-full" aria-label="Image suivante">
+                    Suivant
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== MODAL MENTIONS LÉGALES ===================== -->
+    <div
+        id="legal-modal"
+        class="fixed inset-0 z-[110] bg-black/60 hidden items-center justify-center p-4 backdrop-blur-sm opacity-0 transition-opacity duration-300"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="legal-modal-title"
+    >
+        <div class="legal-modal-scroll rounded-[2rem] p-8 md:p-12 max-w-2xl w-full max-h-[85vh] overflow-y-auto shadow-2xl relative transform transition-transform duration-300 scale-95" id="legal-modal-content" tabindex="-1">
+            <button type="button" data-action="close-legal" class="notranslate absolute top-6 right-6 transition-colors text-4xl leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-foret-500 rounded" aria-label="Fermer les mentions légales">&times;</button>
+
+            <h2 id="legal-modal-title" class="text-3xl md:text-4xl font-['Playfair_Display'] italic mb-6">Mentions Légales</h2>
+
+            <div class="space-y-4 text-sm leading-relaxed">
+                <p class="mb-6 p-4 rounded-xl border text-xs italic legal-intro">
+                    Conformément aux dispositions de la loi pour la confiance dans l'économie numérique (LCEN), voici les informations obligatoires de notre site.
+                </p>
+                <h3 class="legal-heading">1. Éditeur du site</h3>
+                <p>Nom : Guinguette Etang Grenetier<br>
+                Adresse : Route Industrielle du Pré Charpin, 58260 La Machine<br>
+                Téléphone : <a href="tel:+33743282658" class="underline hover:opacity-80">07 43 28 26 58</a><br>
+                Directeur de la publication : Marie Hélène Renon</p>
+
+                <h3 class="legal-heading">2. Hébergement</h3>
+                <p>Le site est hébergé par Firebase (Google LLC).<br>
+                Siège social : 1600 Amphitheatre Parkway, Mountain View, CA 94043, États-Unis.</p>
+
+                <h3 class="legal-heading">3. Propriété intellectuelle</h3>
+                <p>L'ensemble de ce site relève de la législation sur le droit d'auteur. Tous les droits de reproduction sont réservés, y compris pour les documents iconographiques et photographiques.</p>
+
+                <h3 class="legal-heading">4. Données personnelles (RGPD) & Cookies</h3>
+                <p>Le site <strong>ne dépose pas de cookies publicitaires ou de traçage</strong>. Seuls des cookies techniques strictement nécessaires au fonctionnement de l'hébergeur peuvent être présents.</p>
+                <p>Les informations transmises via le formulaire de contact sont utilisées uniquement pour répondre à vos demandes et ne sont en aucun cas vendues ou cédées à des tiers. Vous disposez d'un droit d'accès, de modification et de suppression de vos données.</p>
+
+                <h3 class="legal-heading">5. Conditions Générales d'Utilisation</h3>
+                <p>L'utilisation de ce site implique l'acceptation de ces conditions. Les menus et tarifs sont donnés à titre indicatif et peuvent évoluer sans préavis.</p>
+
+            </div>
+
+            <div class="mt-10 text-center">
+                <button type="button" data-action="close-legal" class="legal-close-btn notranslate px-8 py-3 rounded-full font-bold text-xs uppercase tracking-widest transition-colors border border-current hover:opacity-80">Fermer</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== CONTACT MODAL ===================== -->
+    <div
+        id="contact-modal"
+        class="fixed inset-0 z-[110] bg-black/60 hidden items-center justify-center p-4 backdrop-blur-sm opacity-0 transition-opacity duration-300"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="contact-modal-title"
+    >
+        <div class="legal-modal-scroll rounded-[2rem] p-8 md:p-12 max-w-2xl w-full max-h-[85vh] overflow-y-auto shadow-2xl relative transform transition-transform duration-300 scale-95 text-center" id="contact-modal-content" tabindex="-1">
+            <button type="button" data-action="close-contact" class="notranslate absolute top-6 right-6 transition-colors text-4xl leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-foret-500 rounded" aria-label="Fermer le formulaire de contact">&times;</button>
+
+            <h2 id="contact-modal-title" class="text-3xl md:text-4xl font-['Poppins'] font-bold mb-6 text-center">Contacter Ryle Web &amp; Design</h2>
+
+            <form id="contact-form" action="https://formspree.io/f/xaqkevab" method="POST" novalidate class="mt-6 text-left max-w-lg mx-auto bg-stone-100 dark:bg-white/5 p-6 rounded-2xl border border-stone-200 dark:border-stone-700">
+                <div class="mb-4">
+                    <label for="nom" class="block text-xs uppercase tracking-widest font-bold mb-2">Votre nom</label>
+                    <input type="text" id="nom" name="nom" required placeholder="Ex: Jean Dupont" aria-label="Votre nom" class="w-full px-4 py-3 border border-stone-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-foret-500 dark:bg-stone-800 dark:border-stone-600 dark:text-white transition-all placeholder:text-stone-400 dark:placeholder:text-stone-500">
+                </div>
+
+                <div class="mb-4">
+                    <label for="email" class="block text-xs uppercase tracking-widest font-bold mb-2">Votre email</label>
+                    <input type="email" id="email" name="email" required placeholder="Ex: jean.dupont@email.com" aria-label="Votre email" class="w-full px-4 py-3 border border-stone-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-foret-500 dark:bg-stone-800 dark:border-stone-600 dark:text-white transition-all placeholder:text-stone-400 dark:placeholder:text-stone-500">
+                </div>
+
+                <div class="mb-6">
+                    <label for="message" class="block text-xs uppercase tracking-widest font-bold mb-2">Votre message</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Votre message ou question ici..." aria-label="Votre message" class="w-full px-4 py-3 border border-stone-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-foret-500 dark:bg-stone-800 dark:border-stone-600 dark:text-white transition-all placeholder:text-stone-400 dark:placeholder:text-stone-500"></textarea>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="bg-gradient-to-r from-foret-600 to-foret-700 text-white px-8 py-3.5 rounded-full font-bold text-xs uppercase tracking-widest hover:from-foret-700 hover:to-foret-800 transition-all shadow-lg hover:shadow-foret-500/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-foret-500">
+                        Envoyer le message
+                    </button>
+                </div>
+            </form>
+
+            <div class="mt-10 text-center">
+                <button type="button" data-action="close-contact" class="legal-close-btn notranslate px-8 py-3 rounded-full font-bold text-xs uppercase tracking-widest transition-colors border border-current hover:opacity-80">Fermer</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== ENGAGEMENT MODAL ===================== -->
+    <div
+        id="engagement-modal"
+        class="fixed inset-0 z-[120] bg-black/60 hidden items-center justify-center p-4 backdrop-blur-sm opacity-0 transition-opacity duration-300"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="engagement-modal-title"
+    >
+        <div class="legal-modal-scroll rounded-[2rem] p-8 md:p-12 max-w-lg w-full max-h-[85vh] overflow-y-auto shadow-2xl relative transform transition-transform duration-300 scale-95 text-center bg-stone-100 dark:bg-stone-900 border border-stone-200 dark:border-stone-800" id="engagement-modal-content" tabindex="-1">
+            <button type="button" id="engagement-modal-close" data-action="close-engagement" class="notranslate absolute top-6 right-6 transition-colors text-4xl leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-foret-500 rounded text-stone-500 hover:text-stone-800 dark:text-stone-400 dark:hover:text-stone-200" aria-label="Fermer la boîte d'information">&times;</button>
+            
+            <div id="engagement-modal-icon" class="text-6xl md:text-7xl mb-6" aria-hidden="true"></div>
+            <h2 id="engagement-modal-title" class="text-3xl md:text-4xl font-['Playfair_Display'] italic mb-6 text-foret-700 dark:text-foret-400"></h2>
+            
+            <p id="engagement-modal-comment" class="text-base md:text-lg text-stone-700 dark:text-stone-300 leading-relaxed max-w-md mx-auto"></p>
+        </div>
+    </div>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer id="main-footer" class="py-16 px-4 text-center text-xs md:text-sm uppercase tracking-widest leading-loose" role="contentinfo"></footer>
+
+    <!-- Skip to content (accessibilité) -->
+    <a href="#main-content" class="skip-link sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[200] focus:bg-foret-700 focus:text-white focus:px-4 focus:py-2 focus:rounded focus:text-sm">Aller au contenu</a>
+
+    <!-- Google Translate (caché visuellement, piloté par notre bouton) -->
+    <div id="google_translate_element" style="position:absolute;top:-9999px;left:-9999px;"></div>
+
+    <script src="assets/js/app.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
